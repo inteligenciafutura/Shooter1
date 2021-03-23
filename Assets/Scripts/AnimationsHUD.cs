@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimationsHUD : MonoBehaviour
 {
@@ -20,4 +21,10 @@ public class AnimationsHUD : MonoBehaviour
     {
         PlayerNPC.GetComponent<Animator>().Play("Wave Hip Hop Dance");
     }
+
+    public void Jugar()
+    {
+        SceneManager.LoadScene("Nivel1");
+    }
+
 }

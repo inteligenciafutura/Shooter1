@@ -1045,7 +1045,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1356889451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1616231282}
+        m_TargetAssemblyTypeName: AnimationsHUD, Assembly-CSharp
+        m_MethodName: Jugar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1356889451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1514,6 +1526,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c064949d34c507d4ea9fe9820251f052, type: 3}
   m_PrefabInstance: {fileID: 898659878}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2119036721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119036720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5844f7144964724d93e27240764a71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerName: Carlos
 --- !u!95 &2119036722
 Animator:
   serializedVersion: 3
